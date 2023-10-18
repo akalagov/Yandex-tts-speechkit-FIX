@@ -15,9 +15,9 @@ _LOGGER = logging.getLogger(__name__)
 
 YANDEX_API_URL = "https://tts.api.cloud.yandex.net/speech/v1/tts:synthesize"
 
-SUPPORT_LANGUAGES = ["ru-RU", "en-US", "tr-TR"]
+SUPPORT_LANGUAGES = ["ru-RU", "en-US", "tr-TR", "kk-KK"]
 
-SUPPORT_CODECS = ["lpcm", "oggopus"]
+SUPPORT_CODECS = ["lpcm", "oggopus", "mp3"]
 
 SUPPORT_VOICES = [
     "jane",
@@ -48,7 +48,9 @@ SUPPORT_VOICES = [
     "alyss",
     "nick",
     "alena",
-    "filipp"
+    "filipp",
+    "amira",
+    "madi"
 ]
 
 SUPPORTED_EMOTION = ["good", "evil", "neutral"]
